@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+  <body>
+    <header>
+     <h1>JuanK Varela</h1>
+     <nav>
+        <ul>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/sections/about.html">About me</a></li>
+            <li><a href="/sections/contact.html">Contact</a></li>
+        </ul>
+     </nav>
+    </header>   
+
+
+    <main>
+    
+    <address>
+     <h2>Contact</h2>
+        <p>Email: jcvarelag@gmal.com</p>
+        <p>Mobile: (+34) 665 989 428</p>
+    </address>
+
+    <form>
+      <ul>
+        <fieldset>
+            <legend>Contac data</legend>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="obsevation">Observations:</label>
+            <input type="text" id="obsevation" name="obsevation" minlength="3" maxlength="50" placeholder="Write here">
+        </fieldset>
+        <button type="submit">Send Form</button>
+        <button type="reset">Reset Form</button>
+      </ul>
+
+
+        
+<ul>
+    <fieldset> 
+        <legend>More Interests</legend>
+        
+        <label for="phone">Mobile</label>
+        <input type="number" id="phone" name="mobile">
+
+        <label for="favNumber">Favorite Number</label>
+        <input type="number" id="favNumber" name="favNumber" min="1" max="20">
+
+        <label for="color">Favorite Color</label>
+        <input type="color" name="color" id="color">
+
+        <label for="birthDate">Birthdate:</label>
+        <input type="date" id="birthDate" name="Birthdate">
+
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password">
+
+        <label for="checkbox">Terms & Conditions</label>
+        <input type="checkbox" id="checkbox" checked>
+
+        <p>Do you wanna be my friend?</p>
+        <label for="friendYes">Yes</label>
+        <input type="radio" id="friendYes" name="friend" value="yes" checked>
+
+        <label for="friendNo">No</label>
+        <input type="radio" id="friendNo" name="friend" value="no">
+
+        <p>Favorite Food:</p>
+        <select favoriteFood id="list">
+            <option value="1">Lasagna</option>
+            <option value="2">Sushi</option>
+            <option value="3">Hot Dogs</option>
+
+        </select>
+    </fieldset>
+</ul>
+      
+    </form>
+    </main> 
+    
+
+    <footer>
+        <p>Juan Carlos Varela Granada - 2023</p>
+    </footer>
+   </body>
+</html>
