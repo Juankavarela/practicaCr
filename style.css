@@ -1,12 +1,68 @@
-img{ width:200px;
+/* Estilos Generales*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+}
+
+main{
+    padding: 2rem;
+    background-color: #ffffff;
+}
+
+header{
+    margin-bottom: 1.5rem;
+}
+
+
+/* Estilos de index html*/
+
+body{
+    background-color: #564162;
+    width: 1200px;
+    height: 100vh;
+
+}
+
+#inicio{
+    background-image: url("/Images/Milo.jpg");
+}
+#intro{
+    font-style: italic;
+    font-size: 1.2rem;
 }
 
 #cartaLoco{
+   width: 200px;
     border: 4px;
     border-radius: 5px;
 }
 
-iframe{
-    border: 30px;
+/* Estilos About me */
 
+.listas{
+    margin: 24px 0 24px 0;
+    padding: 16px;
 }
+
+iframe{
+    border: 2px #564162;
+    border-radius: 10px;  
+}
+
+/* Estilos Contact */
+address{
+    margin: 16px;
+}
+
+fieldset{
+    margin: 20px;
+    padding: 16px;
+}
+
+

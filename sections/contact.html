@@ -19,30 +19,39 @@
     </header>   
 
 
-    <main>
-    
-    <address>
-     <h2>Contact</h2>
+    <main> 
+        <h2>Contact</h2>
+        <address>
         <p>Email: jcvarelag@gmal.com</p>
         <p>Mobile: (+34) 665 989 428</p>
     </address>
 
     <form>
-      <ul>
         <fieldset>
-            <legend>Contac data</legend>
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name">
-
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-
-            <label for="obsevation">Observations:</label>
-            <input type="text" id="obsevation" name="obsevation" minlength="3" maxlength="50" placeholder="Write here">
-        </fieldset>
+            <legend>Contact data</legend>
+                <ul>
+                    <li>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name">
+                    
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                
+                        <label for="obsevation">Comments:</label>
+                        <textarea
+                            cols="21"
+                            rows="4"
+                            minlength="3"
+                            maxlength="50"
+                            id="observation"
+                            placeholder="Write all you want here. (from min 3 to 50 characters)">
+                        </textarea>
+                    </li>
+                </ul>
+            </fieldset>
         <button type="submit">Send Form</button>
         <button type="reset">Reset Form</button>
-      </ul>
+      
 
 
         
