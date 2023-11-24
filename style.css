@@ -7,7 +7,15 @@
 
 html{
     font-family: Arial, Helvetica, sans-serif;
-    letter-spacing: 1px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+body{
+    background-color: #faedc3;
+    width: 1200px;
+    height: 100vh;
+
 }
 
 main{
@@ -21,16 +29,22 @@ header{
 
 
 /* Estilos de index html*/
-
-body{
-    background-color: #564162;
-    width: 1200px;
-    height: 100vh;
+#inicio{
+    background-color: #fea837;
+    background-image: url("/Images/Milo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
 
-#inicio{
-    background-image: url("/Images/Milo.jpg");
+#bg-inicio{
+    width: 50%;
+    min-width: 300px;
+    border-radius: 10px;
+    color: #ffffff;
+    margin: auto;
+    padding: 2rem;
+    background-color: #af985f80;
 }
 #intro{
     font-style: italic;
