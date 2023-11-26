@@ -21,6 +21,9 @@ body{
 main{
     padding: 2rem;
     background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 header{
@@ -29,6 +32,40 @@ header{
 
 
 /* Estilos de index html*/
+header{
+    background-color: #783403;
+    color: #ffffff;
+    height: 4.5rem;
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1{
+    margin-left: 3rem;
+}
+
+a{
+    list-style: none;
+    color: #ffffff;
+}
+
+a:hover{
+    background-color: #faedc387;
+    border-radius: 5px;
+}
+
+.menu{
+    list-style: none;
+    margin-right: 3rem;
+    display: flex;
+    gap: 20px;
+    padding: 1rem;
+}
+
+
+
 #inicio{
     background-color: #fea837;
     background-image: url("/Images/Milo.jpg");
@@ -79,4 +116,50 @@ fieldset{
     padding: 16px;
 }
 
+ul{
+    display: flex;
+    justify-content: space-evenly;
+}
 
+button{
+    border: none;
+    width: 45%;
+    padding: 0.7rem;
+    color: #ffffff;
+    background-color: #fea837;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+/*.button{
+    width: 10%;
+}*/
+
+button:hover{
+    background-color: #783403;
+    cursor: pointer;
+}
+
+input, textarea {
+    padding: 0.3rem;
+    margin-bottom: 0.7rem;
+    display: block;
+    font-size: 1rem;
+    border: none;
+    border: 3px;
+    background-color: whitesmoke;
+}
+
+.one-line{
+    display: flex;
+    align-items: baseline;
+}
+/*FOOTER*/
+footer{
+    background-color: #783403;
+    color: #ffffff;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
