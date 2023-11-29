@@ -163,3 +163,30 @@ footer{
     justify-content: center;
     align-items: center;
 }
+
+@media screen and ( min-width 500px){
+    html{
+        font-size: 12px;
+    }
+
+    h1{
+        margin-left: 1rem;
+    }
+
+    ul{
+        margin-right: 1rem;
+        gap: 10px;
+    }
+    #inicio{
+        padding: 1rem;
+    }
+    iframe{
+        width: 90%;
+    }
+
+
+
+
+
+    
+}
